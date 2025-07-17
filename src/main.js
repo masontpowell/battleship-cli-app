@@ -18,7 +18,6 @@ const runGame = () => {
   const boardSize = greeting();
   const board = boardWithShips(boardSize);
 
-  //  console.clear();
   gameLoop(board);
 };
 

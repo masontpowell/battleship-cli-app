@@ -2,7 +2,7 @@ const boardSymbol = (cell, debug) => {
   if (debug || cell.hit) {
     if (cell.type === "small") return "🟠";
     if (cell.type === "large") return "🔵";
-    if (cell.type === "empty") return "❗️";
+    if (cell.type === "empty") return "💦";
   }
   return "-";
 };
