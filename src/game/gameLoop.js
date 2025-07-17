@@ -1,5 +1,5 @@
 const readline = require("readline-sync");
-const { printBoard } = require("./printBoard");
+const { printBoard } = require("../ui/printBoard.js");
 const { guessHandling } = require("./guessLogic.js");
 
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));

@@ -1,6 +1,6 @@
 const readline = require("readline-sync");
-const { gameLoop } = require("./gameLoop.js");
-const { boardWithShips } = require("./shipBuilder");
+const { gameLoop } = require("./game/gameLoop.js");
+const { boardWithShips } = require("./game/shipBuilder.js");
 
 const boardOptions = ["4x4", "5x5", "6x6"];
 

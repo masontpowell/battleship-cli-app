@@ -1,4 +1,4 @@
-const { createEmptyBoard } = require("./helper.js");
+const { createEmptyBoard } = require("../utils/helper.js");
 
 const numberOfShips = (size) => {
   if (size === 4) return { large: 1, small: 1 };
